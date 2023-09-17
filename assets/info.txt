@@ -1,0 +1,1 @@
+This is just to inform you that all images, icons and others will be in their respective folders in the assets folder
