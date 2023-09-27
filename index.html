@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <script src="js/script.js" defer></script>
     <title>E-commerce Website</title>
 </head>
@@ -13,9 +14,24 @@
         <!-- The header contents here -->
         <nav class="header-nav navbar">
             <div class="brand" id="logo">
-                CheapAli
+                <a href="index.html" ><img id="Logo" src="assets/img/cheapali logo.png" alt="CheapAli"></a>
+                
             </div>
-            <button class="header-btn">Menu</button>
+            
+            <!-- Search bar -->
+            <div id="search-bar">
+                <input type="text" placeholder="Search for items/paste aliexpress link">
+            </div>
+           <!-- Start Navbar  -->
+           <ul id="navbar">
+            <li> <a href="index.html"></a> Home</li>
+            <li> <a href="About.html"></a>About Us</li>
+            <li> <a href="Featured.html"></a>Featured Products</li>
+
+            <li> <a href="Cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+
+           </ul>
+
         </nav>
     </header> <!-- End Header -->
     
@@ -124,6 +140,11 @@
     <footer>
         <!-- footer contents here -->
         <div class="footer">
+           <a href="contact.html">Contact Us</a>
+           <a href="FAQ.html">FAQ</a>
+           <a href="Refund.html">Refund Policy</a>
+           <a href="About.html">About Us</a>
+           
             
         </div>
     </footer> <!-- End Footer -->

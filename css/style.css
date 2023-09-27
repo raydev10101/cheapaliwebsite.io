@@ -10,8 +10,18 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+    width:100%;
 }
 
+h1 {
+    font-family:avenir black, san-serif;
+}
+#Logo{
+ width: 50px;
+ height: 50px;
+}
+
+ /* header starts here */
 header {
     background-color: lightcoral;
     color: white;
@@ -39,6 +49,7 @@ header {
     border-radius: 10px;
     border: 1px solid black;
 }
+/* header ends here */
 
 main {
     padding: 0 15px;
@@ -107,7 +118,7 @@ img {
     gap: 10px;
     flex-basis: 50%;
 }
-
+/* start of all produxt styles */
 .product {
     border-radius: 10px;
     display: flex;
@@ -130,12 +141,17 @@ img {
     padding: 5px;
     text-align: center;
 }
-
+/* product design */
 .product span {
     position: absolute;
     right: 0;
     padding: 5px 10px;
-    background-color: orange;
+    background-color: rgb(242, 42, 29);
     border-bottom-left-radius: 10px;
     color: white;
+}
+ /* all clickable links */
+a{
+    text-decoration:none;
+    cursor: pointer;
 }
