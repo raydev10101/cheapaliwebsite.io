@@ -3,59 +3,32 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* Font import*/
-@font-face {
-    font-family: Avenir Light;
-    src: url(font-awesome-4.7.0/fonts/Avenir-Light.ttf) format("truetype");
+
+body, html {
+    height: 100%;
 }
 
-body {
-    font-size: 20px;
-    font-family: Avenir Light, B Nazanin, Tahoma, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
-    width:100%;
+.main-container {
+    height: 100%;
+    background-color: lightgray;
+    display: grid;
+    gap:15px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 4fr 1fr;
+    text-align: center;
+    font-size: 1.3rem;
 }
-
-
-#Logo{
- 
- height: 50px;
-}
-
+/* header css */
 header {
-    background-color: papayawhip ;
-    color: white;
-    padding: 10px 15px;
+    background-color: wheat;
+    box-shadow: 0 2px 3px gray;
+    padding: 0 20px;
+    grid-column: 1 / 3;
+    grid-row: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    top: 0;
-    width: 100vw;
-    height: 60px;
 }
-
-
-
-.header-btn {
-    position: absolute;
-    right: 0;
-    margin-bottom: 5px;
-    padding: 5px;
-    border-radius: 10px;
-    border: 1px solid black;
-}
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position:relative;
-
-}
-
-/* header ends here */
 
 main {
     background-color: white;
@@ -71,6 +44,21 @@ main {
     box-shadow: 0 0 3px gray;
     border-radius: 10px;
     margin-left: 20px;
+}
+/* here is the product css */
+.products{
+ margin: 20px ;
+}
+#items{
+    width: 200px;
+    height: 200px;
+    position :relative
+}
+
+#product-content{
+    position: absolute;
+    bottom:0;
+    left:50px;
 }
 
 footer {
