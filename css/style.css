@@ -9,7 +9,6 @@
     src: url(font-awesome-4.7.0/fonts/Avenir-Light.ttf) format("truetype");
 }
 
-<<<<<<< HEAD
 body {
     font-size: 20px;
     font-family: Avenir Light, B Nazanin, Tahoma, sans-serif;
@@ -24,25 +23,9 @@ body {
 #Logo{
  
  height: 50px;
-=======
-body, html {
-    height: 100%;
-}
-
-.main-container {
-    height: 100%;
-    background-color: lightgray;
-    display: grid;
-    gap:15px;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 4fr 1fr;
-    text-align: center;
-    font-size: 1.3rem;
->>>>>>> cfef848a71d86a3999a0656cca6199fce8b3a559
 }
 
 header {
-<<<<<<< HEAD
     background-color: papayawhip ;
     color: white;
     padding: 10px 15px;
@@ -74,18 +57,6 @@ nav{
 
 /* header ends here */
 
-=======
-    background-color: wheat;
-    box-shadow: 0 2px 3px gray;
-    padding: 0 20px;
-    grid-column: 1 / 3;
-    grid-row: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
->>>>>>> cfef848a71d86a3999a0656cca6199fce8b3a559
 main {
     background-color: white;
     border-radius: 10px;
