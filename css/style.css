@@ -95,7 +95,8 @@ footer {
 }
 
 .copy{
-    font-size: 25px;
+    font-size: 15px;
+    font-weight: 400;
     padding-top: 10px;
     padding-bottom: 5px;
 }
