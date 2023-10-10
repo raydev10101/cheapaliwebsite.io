@@ -12,6 +12,7 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
 .main-container {
     height: 100%;
     background-color: lightgray;
@@ -91,7 +92,7 @@ main {
     position: relative;
 }
 
-.img {
+.Prod-img {
     border: 1px solid gray;
     height: auto;
     border-radius: 10px;
@@ -107,6 +108,7 @@ main {
     left: 0;
     padding:10px;
 }
+/* beginning of items */
 #items img{
     height: 100%;
 }
@@ -116,6 +118,15 @@ main {
     flex-direction: row-reverse;
     justify-content: space-between;
     padding: 0 10px;
+}
+/* end of items */
+
+/* sidebar content */
+.categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .original {
