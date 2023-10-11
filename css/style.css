@@ -106,6 +106,12 @@ main {
     border-radius: 10px;
     overflow: hidden;
 }
+/* anchor tags hover effect */
+a:hover{
+    text-shadow: 1px 1px 1px black;
+    transition: 0.3s;
+
+}
 
 .fav {
     position: absolute;
